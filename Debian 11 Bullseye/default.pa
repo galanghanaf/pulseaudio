@@ -126,6 +126,8 @@ load-module module-position-event-sounds
 load-module module-role-cork
 
 ### Modules to allow autoloading of filters (such as echo cancellation)
+load-module module-echo-cancel
+
 ### on demand. module-filter-heuristics tries to determine what filters
 ### make sense, and module-filter-apply does the heavy-lifting of
 ### loading modules and rerouting streams.
